@@ -24,6 +24,6 @@ public class CryptraderApplication implements CommandLineRunner {
 	public void run(String... args) {
 		System.out.println("Successfuly run app!!!");
 		System.out.println("Got currency from Exmo for BTC: \n" + exmoPriceReceiver.getPrice(CurrencyPair.BTC_USDT));
-		System.out.println("Got currency from Binance for BTC: \n" + binancePriceReceiver.getPrice(CurrencyPair.BTC_USDT));
+//		System.out.println("Got currency from Binance for BTC: \n" + binancePriceReceiver.getPrice(CurrencyPair.BTC_USDT));
 	}
 }
